@@ -1,0 +1,95 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar a:hover{
+    color:greenyellow;
+ 
+
+}
+
+.banner{
+    background-image:url(../Image/Back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+    
+
+}
+
+.frst-btn, .c-btn, .p-btn{
+    justify-content: center;
+    display: flex;
+    
+}
+
+.btn{
+    background-color: greenyellow;
+    color: white;
+    border-color: black;
+}
+
+.btn:hover {
+    background-color: white;
+    color: greenyellow;
+    border-color: black;
+}
+
+span{
+    color: greenyellow;
+}
+
+.c-img {
+    height :150px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.p-card{
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 5%;
+}
+
+.p-img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    height: 200px;
+  
+    
+}
+
+.p-img:hover{
+    transform: scale(1.09);
+}
+
+i {
+    color: greenyellow;
+}
+
+.customer-img {
+    height :200px;
+    width: 200px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding-top: 10px;
+}
